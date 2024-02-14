@@ -61,7 +61,3 @@ def main(read_only = False):
 
 if __name__ == "__main__":
     main(read_only = False)
-
-#Goal is to find out that today there are 2 new offer-ids (ID3 and ID4). One ID (ID5) disappeared yesterday
-#df = pd.DataFrame({"offer-id": [1,1,2,2,3,4,5], "date": ["2024-02-10","2024-02-11","2024-02-10","2024-02-11","2024-02-11","2024-02-11","2024-02-10"], "price": [30,10,30,30,20,25,20]})
-#make_model_ads_data = pd.read_csv("make_model_ads_links_concatenated_test.csv")
