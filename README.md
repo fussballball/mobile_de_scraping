@@ -43,6 +43,7 @@ Key folders are:
   * make_models_ads_links contains for each make and model and date (time of the run) a summary of all posts that are online, as well as their and price, title
   * make_models_ads_data is currently empty, but can contain for each post that is crawled detailed information, such as e.g. horsepower, year of built, etc.
   * "make_model_ads_links_concatenated.csv" is a concatenation of all files in the make_models_ads_links folder - it therefore contains over all dates, makes, and models the information on link, title of posting, and price 
+  * "make_and_model_links" file containing links to page 1 of each make and model combination. Also note that the "Relevant" column should be added manually, and filled with "x" for relevant models
 
 
 
